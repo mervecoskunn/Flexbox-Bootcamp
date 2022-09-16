@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+ body {
+    width: 100vw;
+    height: 100vh;
+    background-color:white;
+    margin: 0;
+    overflow: hidden;
+} 
+
+ .container {
+    width: 51vw; 
+    height: 34vw;
+    background-color: white;
+    margin: 1rem auto;
+    box-shadow:0 0 1rem #aaa; 
+    display: flex;
+    justify-content:center ;
+    align-items:center;
+}
+
+  .circle {
+    width: 250px;
+    height: 250px; 
+    background-color: red;
+    border-radius: 50%;
+}    

@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray;
+    margin: 8rem 0 0 0;
+    font: 44px Verdana, sans-serif;
+    overflow: hidden;
+}
+
+.card {
+    width: 20vw;
+    height: 40vw;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+    
+}
+
+.card > div {
+    text-align: center;
+    padding: 1rem;
+    overflow: hidden;
+    
+}
+
+.card div:nth-child(1) {
+    align-self: flex-start;
+    overflow: hidden;
+
+}
+
+.card div:nth-child(2) {
+    align-self: center;
+    font-size: 50px;
+    overflow: hidden;
+}
+
+.card div:nth-child(3) {
+    align-self: flex-end;
+    transform: rotate(180deg);
+    overflow: hidden;
+}

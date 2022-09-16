@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../CSS/FlexboxBootcamp/logo"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Flexbox-Bootcamp"
+	}
+}
